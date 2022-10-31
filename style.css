@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: bisque;
+}
+
+#emoji {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornsilk;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+span {
+    font-size: 50px;
+}
