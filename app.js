@@ -1,7 +1,9 @@
 const url = 'https://emojihub.herokuapp.com/api/random';
 const container = document.querySelector('#emoji');
 
-fetch (url, {
+const refresh = document.getElementById('refresh');
+refresh.addEventListener('click', () => {
+  fetch (url, {
     name: "hugging face",
     category: "smileys and people",
     group: "face positive",
@@ -23,3 +25,8 @@ fetch (url, {
     console.log(obj);
     container.innerHTML = `<span>${obj[3][0]}</span>`;
   })
+})
+
+
+
+

@@ -2,8 +2,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
-    background-color: bisque;
+    background-color:goldenrod
 }
 
 #emoji {
@@ -11,9 +12,24 @@ body {
     justify-content: center;
     align-items: center;
     background-color: cornsilk;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     border-radius: 10px;
+}
+
+.btn {
+    background-image: url(https://icon-library.com/images/sync-icon-png/sync-icon-png-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    width: 50px;
+    height: 50px;
+    filter: drop-shadow(1px 5px 2px rgba(206, 91, 46, 0.6));
+    transition: filter .2s;
+}
+
+.btn:hover {
+    filter: none;
 }
 
 span {
